@@ -21,7 +21,7 @@ def simpleSieve(sieveSize):
     return primes
 
 sieveSize = input()
-primes = simpleSieve(sieveSize)
+str(primes) = simpleSieve(sieveSize)
 
 file = open("Primes.txt","w")
 file.write(Primes)
