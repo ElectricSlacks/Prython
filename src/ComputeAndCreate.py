@@ -25,4 +25,5 @@ str(primes) = simpleSieve(sieveSize)
 
 file = open("Primes.txt","w")
 file.write(Primes)
+file.write("\r\n")
 file.close()
