@@ -2,26 +2,14 @@ import math
 file = open('Primes.txt', 'w')
 file.close()
 
-def simpleSieve(sieveSize):
-    #creating Sieve.
-    sieve = [True] * (sieveSize+1)
-    # 0 and 1 are not considered prime.
-    sieve[0] = False
-    sieve[1] = False
-    for i in xrange(2,int(math.sqrt(sieveSize))+1):
-        if sieve[i] == False:
-            continue
-        for pointer in xrange(i**2, sieveSize+1, i):
-            sieve[pointer] = False
-    # Sieve is left with prime numbers == True
-    primes = []
-    for i in xrange(sieveSize+1):
-        if sieve[i] == True:
-            primes.append(i)
-    return primes
-
-sieveSize = input()
-str(primes) = simpleSieve(sieveSize)
+for num in range(10,20):     #to iterate between 10 to 20
+   for i in range(2,num):    #to iterate on the factors of the number
+      if num%i == 0:         #to determine the first factor
+         j=num/i             #to calculate the second factor
+         print '%d equals %d * %d' % (num,i,j)
+         break #to move to the next number, the #first FOR
+      else:                  # else part of the loop
+         print num, 'is a prime number'
 
 file = open("Primes.txt","w")
 file.write(Primes)
