@@ -1,4 +1,4 @@
-import math 
+from math import *
 file = open('Primes.txt', 'w')
 
 
