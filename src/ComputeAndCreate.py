@@ -20,3 +20,6 @@ def simpleSieve(sieveSize):
 
 sieveSize = input()
 primes = simpleSieve(sieveSize)
+
+f = open('Primes.txt', 'w')
+f= write('Primes.txt , 'primes')
