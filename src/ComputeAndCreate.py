@@ -1,6 +1,6 @@
 from math import *
-file = open('Primes.txt', 'w')
 
+file = open('Primes.txt', 'w')
 
 for num in range(1,i):     #to iterate between 10 to infinity
    for i in range(2,num):    #to iterate on the factors of the number
