@@ -1,4 +1,5 @@
 import math 
+
 def simpleSieve(sieveSize):
     #creating Sieve.
     sieve = [True] * (sieveSize+1)
