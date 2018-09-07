@@ -1,4 +1,6 @@
 import math 
+file = open('Primes.txt', 'w')
+file.close()
 
 def simpleSieve(sieveSize):
     #creating Sieve.
@@ -21,5 +23,6 @@ def simpleSieve(sieveSize):
 sieveSize = input()
 primes = simpleSieve(sieveSize)
 
-f = open('Primes.txt', 'w')
-f= write('Primes.txt , 'primes')
+file = open("Primes.txt","w")
+file.write(Primes)
+file.close()
