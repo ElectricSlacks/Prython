@@ -9,7 +9,7 @@ for num in range(1,i):     #to iterate between 10 to infinity
          
          break #to move to the next number, the #first FOR
       else:                  # else part of the loop
-         File.write(num)
+         file.write(num)
          file.write("\r\n")
 file.close()
 
