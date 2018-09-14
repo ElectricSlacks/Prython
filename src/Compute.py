@@ -14,10 +14,10 @@ if num > 1:
            print(i,"times",num//i,"is",num)
            break
    else:
-       print(num,"is a prime number")
+       
        
 # if input number is less than
 # or equal to 1, it is not prime
 else:
-   print(num,"is not a prime number")
+
 
